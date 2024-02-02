@@ -956,13 +956,8 @@
                                                             </div>
                                                             <!--end::Radio-->
                                                         </div>
-                                                        <!--end::Input row-->
-                                                        <!--end::Roles-->
                                                     </div>
-                                                    <!--end::Input group-->
                                                 </div>
-                                                <!--end::Scroll-->
-                                                <!--begin::Actions-->
                                                 <div class="text-center pt-15">
                                                     <button
                                                         type="reset"
@@ -989,31 +984,23 @@
                                                         ></span>
                                                     </button>
                                                 </div>
-                                                <!--end::Actions-->
                                             </form>
-                                            <!--end::Form-->
                                         </div>
-                                        <!--end::Modal body-->
                                     </div>
-                                    <!--end::Modal content-->
                                 </div>
-                                <!--end::Modal dialog-->
                             </div>
-                            <!--end::Modal - Add task-->
                         </div>
-                        <!--end::Card toolbar-->
+         
                     </div>
-                    <!--end::Card header-->
-                    <!--begin::Card body-->
+              
                     <div class="card-body py-4">
-                        <!--begin::Table-->
+           
                         <table
                             class="table align-middle table-row-dashed fs-6 gy-5"
                             id="kt_table_users"
                         >
-                      
                             <thead>
-                                <!--begin::Table row-->
+                  
                                 <tr
                                     class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0"
                                 >
@@ -1030,22 +1017,21 @@
                                             />
                                         </div>
                                     </th>
-                                    <th class="min-w-125px">User</th>
+                                    <th class="min-w-125px table-sort-desc">
+                                        User
+                                    </th>
                                     <th class="min-w-125px">Role</th>
                                     <th class="min-w-125px">Last login</th>
                                     <th class="min-w-125px">Two-step</th>
                                     <th class="min-w-125px">Joined Date</th>
                                     <th class="text-end min-w-100px">
-                                        Actions
+                                        Acciones
                                     </th>
                                 </tr>
-                                <!--end::Table row-->
                             </thead>
-                        
+
                             <tbody class="text-gray-600 fw-bold">
-                           
                                 <tr>
-                                  
                                     <td>
                                         <div
                                             class="form-check form-check-sm form-check-custom form-check-solid"
@@ -1057,7 +1043,7 @@
                                             />
                                         </div>
                                     </td>
-                                  
+
                                     <td class="d-flex align-items-center">
                                         <!--begin:: Avatar -->
                                         <div
@@ -1087,9 +1073,9 @@
                                         </div>
                                         <!--begin::User details-->
                                     </td>
-                                
+
                                     <td>Administrator</td>
-                            
+
                                     <td>
                                         <div
                                             class="badge badge-light fw-bolder"
@@ -1097,11 +1083,11 @@
                                             Yesterday
                                         </div>
                                     </td>
-                               
+
                                     <td></td>
-                                  
+
                                     <td>25 Jul 2022, 6:05 pm</td>
-                                   
+
                                     <td>
                                         <div
                                             class="d-flex justify-content-end flex-shrink-0"
@@ -1199,15 +1185,10 @@
                                     </td>
                                 </tr>
                             </tbody>
-                            <!--end::Table body-->
                         </table>
-                        <!--end::Table-->
                     </div>
-                    <!--end::Card body-->
                 </div>
-                <!--end::Card-->
             </div>
-            <!--end::Container-->
         </div>
     </div>
 </template>

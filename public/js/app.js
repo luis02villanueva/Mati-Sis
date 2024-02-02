@@ -5820,8 +5820,8 @@ var staticRenderFns = [function () {
       value: "1"
     }
   })])]), _vm._v(" "), _c("th", {
-    staticClass: "min-w-125px"
-  }, [_vm._v("User")]), _vm._v(" "), _c("th", {
+    staticClass: "min-w-125px table-sort-desc"
+  }, [_vm._v("\n                                    User\n                                ")]), _vm._v(" "), _c("th", {
     staticClass: "min-w-125px"
   }, [_vm._v("Role")]), _vm._v(" "), _c("th", {
     staticClass: "min-w-125px"
@@ -5831,7 +5831,7 @@ var staticRenderFns = [function () {
     staticClass: "min-w-125px"
   }, [_vm._v("Joined Date")]), _vm._v(" "), _c("th", {
     staticClass: "text-end min-w-100px"
-  }, [_vm._v("\n                                    Actions\n                                ")])])]);
+  }, [_vm._v("\n                                    Acciones\n                                ")])])]);
 }, function () {
   var _vm = this,
     _c = _vm._self._c;
