@@ -29,7 +29,4 @@ mix.js("resources/js/app.js", "public/js")
         "public/js/plantilla.js"
     )
     .copyDirectory("resources/assets/media", "public/assets/media")
-    .copyDirectory(
-        "resources/assets/plugins/global/fonts",
-        "public/fonts"
-    );
+    .copy("resources/assets/plugins/global/fonts", "public/css/fonts");

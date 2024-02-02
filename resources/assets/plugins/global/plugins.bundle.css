@@ -28470,7 +28470,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
     font-weight: 400;
     font-display: block;
     src: url(fonts/@fortawesome/fa-brands-400.eot);
-    src: url(fonts/@fortawesome/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(fonts/@fortawesome/fa-brands-400.woff2) format("woff2"), url(fonts/@fortawesome/fa-brands-400.woff) format("woff"), url(fonts/@fortawesome/fa-brands-400.ttf) format("truetype"), url(fonts/@fortawesome/fa-brands-400.svg#fontawesome) format("svg")
+    src: url(fonts/@fortawesome/fa-brands-400.eot) format("embedded-opentype"), url(fonts/@fortawesome/fa-brands-400.woff2) format("woff2"), url(fonts/@fortawesome/fa-brands-400.woff) format("woff"), url(fonts/@fortawesome/fa-brands-400.ttf) format("truetype"), url(fonts/@fortawesome/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fab {
