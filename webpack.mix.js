@@ -4,6 +4,7 @@ mix.js("resources/js/app.js", "public/js")
     .postCss("resources/css/app.css", "public/css", [
         //
     ])
+    .vue()
     .styles(
         [
             "resources/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css",
