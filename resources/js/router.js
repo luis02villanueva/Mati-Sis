@@ -1,5 +1,6 @@
 import Dashboard from "./components/Dashboard.vue";
-import Categorias from "./components/Categorias/Index.vue"
+import Categorias from "./components/Categorias/Index.vue";
+import Usuarios from "./components/Usuarios/Index.vue";
 import VueRouter from "vue-router";
 const routes = [
     {
@@ -9,8 +10,13 @@ const routes = [
 
     {
         path: "/categorias",
-        name:'categoria',
+        name: "categoria",
         component: Categorias,
+    },
+    {
+        path: "/usuarios",
+        name: "usuarios",
+        component: Usuarios,
     },
 ];
 const router = new VueRouter({
