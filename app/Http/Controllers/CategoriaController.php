@@ -42,7 +42,6 @@ class CategoriaController extends Controller
     {
         $data = Categoria::findOrFail($id);
         return response()->json($data);
-
     }
 
     /**
