@@ -19,8 +19,9 @@ use App\Http\Controllers\CategoriaController;
 //     return $request->user();
 // });
 
-Route::get('categorias',[CategoriaController::class,'index']);
-Route::post('categorias',[CategoriaController::class,'store']);
-Route::get('categorias',[CategoriaController::class,'show']);
-Route::post('categorias',[CategoriaController::class,'edit']);
-Route::delete('categorias',[CategoriaController::class,'destroy']);
+Route::get('categorias', [CategoriaController::class, 'index']);
+Route::post('/categorias', [CategoriaController::class, 'store']);
+Route::get('/categorias/{id}', [CategoriaController::class, 'show']);
+Route::post('/categorias/{id}', [CategoriaController::class, 'edit']);
+Route::delete('/categorias/{id}', [CategoriaController::class, 'destroy']);
+

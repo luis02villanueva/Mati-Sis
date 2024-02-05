@@ -16,31 +16,33 @@ class CategoriaController extends Controller
         return response()->json($categorias);
     }
 
-
-    public function create()
-    {
-        //
-    }
-
-
     public function store(Request $request)
-    {
-        if ($request->hasFile('imagen')) {
 
+    {
+
+        $categorias = new Categoria;
+        $categorias->nombre = $request->input('nombre');
+        $categorias->descripcion = $request->input('descripcion');
+
+        if ($request->hasFile('imagen')) {
             $path = Storage::putFile('categorias', $request->file('imagen'));
-            return $path;
+            $categorias->imagen = $path;
         }
+        $categorias->save();
     }
 
     /**
      * Display the specified resource.
+
      *
      * @param  \App\Models\Categoria  $categoria
      * @return \Illuminate\Http\Response
      */
-    public function show(Categoria $categoria)
+    public function show($id)
     {
-        //
+        $data = Categoria::findOrFail($id);
+        return response()->json($data);
+
     }
 
     /**
